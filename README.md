@@ -51,18 +51,27 @@ Notes:
 
 ```
 Breast_Cancer_Detection_Deep_Learning/
-├── Breast_Cancer_Detection_Deep_Learning.ipynb
+├── Images/
+├── ├── Data.png
+├── ├── Demo.gif
+├── ├── Results_1
+├── ├── Results_2
+├── Trained_Weights/
+│   └── readme.md - Download Models weights from here(Google Drive)
+├── notebook/
+├── ├── Breast_Cancer_Detection_Deep_Learning.ipynb
 ├── src/
-│   ├── data.py
-│   ├── unet_model.py
+│   ├── init.py
 │   ├── classifier_model.py
-│   ├── train_unet.py
+│   ├── config.py
+│   ├── data.py
+│   ├── gui_app.py
+│   ├── infer.py
+│   ├── losses.py
 │   ├── train_classifier.py
-│   └── infer.py
-├── models/
-├── reports/
-│   └── figures/
-├── requirements.txt
+│   ├── train_unet.py
+│   ├── unet_model.py
+├── Requirements.txt
 └── README.md
 ```
 
